@@ -12,7 +12,7 @@ Object-oriented programming (OOP) is a programming paradigm that uses objects, w
 SOLID is a set of five principles for object-oriented software design, which stands for Single responsibility, Open-closed, Liskov substitution, Interface segregation, and Dependency Inversion.
 
 ### Example:
-```
+```python
 class Dog:
     def __init__(self, name, breed):
         self.name = name
@@ -32,7 +32,7 @@ class Dog:
 ```
 It can be fixed by splitting the class into multiple classes each with a single responsibility
 
-```
+```python
 class Dog:
     def __init__(self, name, breed):
         self.name = name
@@ -73,7 +73,7 @@ An interface is a collection of abstract methods (methods with no implementation
 Class methods are methods that are bound to the class and not the instance of the object. They are defined using the @classmethod decorator and take the class as the first argument instead of self. They are useful for creating alternative constructors for a class.
 
 ### Example:
-```
+```python
 class Dog:
     def __init__(self, name, breed):
         self.name = name
@@ -92,7 +92,7 @@ print(dog.name)
 In Python, private attributes are denoted by a single leading underscore. This is a convention indicating that the attribute should not be accessed directly from outside the class, although it can still be accessed if necessary.
 
 ### Example:
-```
+```python
 class Dog:
     def __init__(self, name, breed):
         self.__name = name
@@ -113,7 +113,7 @@ print(dog.get_name())  # This will return "Fido"
 The Method Resolution Order (MRO) is the order in which the interpreter looks for methods in a class hierarchy. In Python, the MRO is determined by C3, which is a linearization algorithm that finds the order of methods that avoids diamond problem and provide a consistent method resolution order. It works by first determining the depth of the class, and then the order of classes by checking the left-most class first, and then moving to the right.
 
 ### Example:
-```
+```python
 class A:
     def method(self):
         print("Class A method")
@@ -134,11 +134,11 @@ d.method() # Output: "Class C method"
 in the above example, python interpreter first look for the method in class D, it's not present then it looks in class B which also not present then it looks in class C and it found the method there so it will use this method.
 
 You can use the built-in help function to check the MRO of a class, it prints the order of classes that Python will look through when searching for a method.
-```
+```python
 help(D)
 ```
 This will output something like
-```
+```python
 class D(B, C)
  |  Method resolution order:
  |      D

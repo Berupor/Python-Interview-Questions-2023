@@ -28,7 +28,7 @@ Selectivity is the degree to which the values of a column in a table are unique.
 Profiling requests is the process of measuring the performance of a database query and identifying bottlenecks. This can be done using tools such as the EXPLAIN command in SQL or a database profiler.
 
 #### Example:
-```
+```postgresql
 EXPLAIN SELECT * FROM users_table WHERE name = 'Alice';
 ```
 ### 🔶 5. What is the difference between explain and explain analyze?

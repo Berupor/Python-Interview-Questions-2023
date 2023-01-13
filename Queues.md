@@ -29,29 +29,40 @@ A queue follows the First-In-First-Out (FIFO) principle, where the first element
 A queue can be implemented in Python using a list with the append() method for enqueue and the pop(0) method for dequeue.
 
 #### Example:
-```
+```python
 queue = []
 queue.append(1) # enqueue 1
 queue.append(2) # enqueue 2
+
 print(queue.pop(0)) # dequeue 1
 print(queue) # [2]
-How would you implement a priority queue in Python?
+```
+
+### 🔶 6. How would you implement a priority queue in Python?
+
+---
+#### Answer:
 A priority queue can be implemented in Python using the heapq library. Elements are added to the queue with a priority value, and the element with the highest priority is always at the front of the queue.
-Copy code
+
+#### Example:
+```python
 import heapq
+
 priority_queue = []
+
 heapq.heappush(priority_queue, (2, 'task2'))
 heapq.heappush(priority_queue, (3, 'task3'))
 heapq.heappush(priority_queue, (1, 'task1'))
+
 print(heapq.heappop(priority_queue)) # (1, 'task1')
 ```
 
-### 🔶 6. What are some common use cases for message queues?
+### 🔶 7. What are some common use cases for message queues?
 
 ---
 #### Answer:
 Some common use cases for message queues include: Decoupling systems, load balancing, buffering, and rate limiting.
-### 🔶 7. What are the benefits of using a message queue?
+### 🔶 8. What are the benefits of using a message queue?
 
 ---
 #### Answer:

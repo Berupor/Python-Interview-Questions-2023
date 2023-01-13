@@ -35,7 +35,7 @@ A set in Python is implemented as a hash table. This allows for fast insertion, 
 ---
 #### Answer:
 Decorators in Python are a way to modify or extend the functionality of a function or class. They are implemented as functions that take another function as an argument and return a new function that usually includes the functionality of the original function.
-```
+```python
 def my_decorator(func):
     def wrapper():
         print("Something is happening before the function is called.")
@@ -59,7 +59,7 @@ say_hello()
 ---
 #### Answer:
 Generators in Python are a special type of iterator that allow a programmer to iterate over a sequence of items, without the need to keep the entire sequence in memory. They are implemented as functions that use the "yield" keyword to return an iterator, instead of a list. When a generator function is called, it returns a generator object, which can be used in a for loop or with the next() function to iterate through the generated sequence.
-```
+```python
 def my_gen():
     yield 1
     yield 2

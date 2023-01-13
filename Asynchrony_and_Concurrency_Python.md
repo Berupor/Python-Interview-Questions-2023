@@ -7,7 +7,7 @@
 GIL (Global Interpreter Lock) is a mechanism used in the CPython implementation of Python to prevent multiple native threads from executing Python bytecodes at once. This lock is necessary because CPython's memory management is not thread-safe. GIL ensures that only one thread executes Python bytecode at a time, avoiding conflicts between threads over the Python interpreter's memory.
 
 ### Example:
-```
+```python
 import threading
 
 def my_func():
@@ -37,7 +37,7 @@ A thread is a lightweight, independent unit of execution that can run within a p
 A race condition occurs when multiple threads access shared data or resources simultaneously, and the outcome of the program depends on the order in which the threads execute. Thread safety is the property of an application or library that it can handle multiple threads accessing shared data or resources without introducing race conditions.
 
 #### Example:
-```
+```python
 import threading
 
 x = 0
@@ -79,7 +79,7 @@ Some mechanisms for synchronizing access to shared resources include:
 - Monitors: a mechanism that allows only one thread to execute a critical section of code at a time, and also provides a mechanism for threads to wait for specific conditions to be met before continuing execution.
 
 #### Example:
-```
+```python
 import threading
 
 # Using locks
@@ -133,7 +133,7 @@ Some mechanisms of interaction of processes include:
 Asynchronous I/O is a method of input/output operations in which the process does not wait for the I/O operation to complete before continuing execution. This allows for more efficient use of system resources, as the process can perform other tasks while the I/O operation is in progress.
 
 #### Example:
-```
+```python
 import asyncio
 
 async def read_file():
@@ -158,7 +158,7 @@ In this example, the await file.readline() is an asynchronous I/O operation that
 Coroutines are a type of lightweight, cooperative threads that allow for concurrency without the need for multiple threads. Coroutines can yield control to other coroutines, allowing them to execute, and then resume execution later. They are implemented using the "yield" keyword and are similar to generators, but with more features for concurrency.
 
 #### Example:
-```
+```python
 import asyncio
 
 async def my_coroutine():
@@ -186,7 +186,7 @@ The async/await construct in Python is used to write asynchronous code in a sync
 An EventLoop is a mechanism that allows for the scheduling and execution of asynchronous code. It runs in a single thread and manages the execution of tasks, such as I/O operations, by scheduling them to be executed as soon as their resources become available. EventLoop is an essential part of asyncio library which provides an abstract event-driven asynchronous I/O framework.
 
 #### Example:
-```
+```python
 import asyncio
 
 async def my_task():
