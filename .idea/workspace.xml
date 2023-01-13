@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba0fe92b-1f85-480b-98bc-0f3fb1962c03" name="Changes" comment="" />
+    <list default="true" id="ba0fe92b-1f85-480b-98bc-0f3fb1962c03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Architecture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queues.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asynchrony_and_Concurrency_Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/Asynchrony_and_Concurrency_Python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoSQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/NoSQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_General.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python_General.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/SQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/Testing.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +29,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KH0jb8q56VMf3dV7nvOctRj8Ai" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,6 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/macbook/Desktop/INTERVIEW",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -37,6 +54,11 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="p.pu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="INTERVIEW" />
@@ -74,12 +96,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673616336943</updated>
-      <workItem from="1673616338284" duration="4782000" />
+      <workItem from="1673616338284" duration="7415000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/INTERVIEW$p_pu.coverage" NAME="p.pu Coverage Results" MODIFIED="1673626393966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

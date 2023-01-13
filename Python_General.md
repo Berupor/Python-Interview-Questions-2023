@@ -77,3 +77,5 @@ for i in my_gen():
 ---
 #### Answer:
 Context managers in Python are used to set up and tear down a context around a block of code. They are implemented using the "with" statement and a context manager object, which has methods such as "enter" and "exit" that are called when the context is entered and exited. This is useful for managing resources such as file and network connections, where it's important to ensure that the resources are properly closed and cleaned up after use. The "with" statement automatically handles the calls to the "enter" and "exit" methods, making it easy to ensure that the resources are properly managed, even in the presence of exceptions.
+
+### <a href="#top"> Back to top ⬆️</a>

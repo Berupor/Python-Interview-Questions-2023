@@ -205,3 +205,5 @@ async def main():
 asyncio.run(main())
 ```
 In this example, we create an event loop using asyncio.get_event_loop() and schedule a task using loop.create_task(my_task()). The event loop is then run using loop.run_forever() which schedules and runs the task as soon as resources become available.
+
+### <a href="#top"> Back to top ⬆️</a>

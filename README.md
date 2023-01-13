@@ -23,14 +23,14 @@ It can be about your testing experience when you write tests, and about differen
 ---
 ## How to prepare to interview?
 Repeat everything on the topics from the “Questions about the stack” block - the more thoroughly, the better. Here is the finished checklist:
-- [ ] [Python.](/Python_General.md)
-- [ ] [Asynchrony and concurrency in Python.](Asynchrony_and_Concurrency_Python.md) 
-- [ ] [OOP.](OOP.md)
-- [ ] [SQL.](SQL.md)
-- [ ] [NoSQL.](NoSQL.md)
-- [ ] queues
-- [ ] Architecture
-- [ ] [Testing.](Testing.md)
+- [ ] [Python](/Python_General.md)
+- [ ] [Asynchrony and concurrency in Python](Asynchrony_and_Concurrency_Python.md) 
+- [ ] [OOP](OOP.md)
+- [ ] [SQL](SQL.md)
+- [ ] [NoSQL](NoSQL.md)
+- [ ] [Queues](Queues.md)
+- [ ] [Architecture](Architecture.md)
+- [ ] [Testing](Testing.md)
 
 ---
 ## Signs of the Middle+ level in these blocks:

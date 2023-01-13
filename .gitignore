@@ -1,0 +1,14 @@
+/.vscode
+/.idea
+**/.DS_Store
+.gitignore
+
+**/__pycache__
+**/.pytest_cache
+**/.idea
+
+.env
+.env.prod
+.env.dev
+
+/venv

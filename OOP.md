@@ -148,5 +148,5 @@ class D(B, C)
 ```
 It lists the classes in the order that Python will look for methods in them.
 
-
+### <a href="#top"> Back to top ⬆️</a>
 
