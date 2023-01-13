@@ -17,6 +17,10 @@ OOP is often asked general questions, but you may come across questions related 
 Questions aimed at knowledge of SQL databases and SQL dialect. The questions can be adapted for example to PostgreSQL or MySQL
 - ### [NoSQL.](NoSQL.md)
 This block of questions may arise if you have worked with NoSQL databases
+- ### [Architecture.](Architecture.md)
+During interviews for senior developers, a separate interview is allocated to check the skills of an architect
+- ### [Queues](Queues.md)
+When preparing for an interview, do not lose sight of this block.
 - ### [Testing.](Testing.md)
 It can be about your testing experience when you write tests, and about different hacks in the tests themselves.
 
