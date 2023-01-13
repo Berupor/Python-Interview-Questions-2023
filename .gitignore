@@ -1,7 +1,7 @@
 /.vscode
-/.idea
+./.idea
 **/.DS_Store
-.gitignore
+./.gitignore
 
 **/__pycache__
 **/.pytest_cache
