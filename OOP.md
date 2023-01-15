@@ -78,6 +78,7 @@ class Dog:
     def __init__(self, name, breed):
         self.name = name
         self.breed = breed
+        
     @classmethod
     def create_from_tuple(cls, name_breed_tuple):
         return cls(*name_breed_tuple)
