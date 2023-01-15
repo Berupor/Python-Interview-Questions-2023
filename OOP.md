@@ -89,7 +89,7 @@ print(dog.name)
 
 ---
 #### Answer:
-In Python, private attributes are denoted by a single leading underscore. This is a convention indicating that the attribute should not be accessed directly from outside the class, although it can still be accessed if necessary.
+In Python, private attributes are denoted by a double leading underscore. This is a convention indicating that the attribute should not be accessed directly from outside the class, although it can still be accessed if necessary.
 
 ### Example:
 ```python
