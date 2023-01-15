@@ -74,8 +74,8 @@ B-Tree index is a balanced tree data structure that stores data in a sorted orde
 ---
 
 ## Here is a list of features that correspond to the Middle+ level:
-- Quickly answer simple questions about indexes.
-- Answer the question about transaction isolation levels.
+- You quickly answer simple questions about indexes.
+- You are answering a question about transaction isolation levels.
 - You have experience in query profiling and optimization.
 - You can write complex queries such as window functions and CTEs.
 - You understand when not to write complex queries.
