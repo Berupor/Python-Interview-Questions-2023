@@ -61,7 +61,14 @@ print(heapq.heappop(priority_queue)) # (1, 'task1')
 
 ---
 #### Answer:
-Some common use cases for message queues include: Decoupling systems, load balancing, buffering, and rate limiting.
+Common use cases for message queues include:
+
+- Decoupling systems by allowing them to communicate asynchronously
+- Buffering and load leveling
+- Enabling the communication between microservices in a distributed system
+- Allowing for the reliable communication between systems with different performance characteristics
+- Facilitating the communication between event-driven systems
+- Enabling communication between processes, applications, and devices.
 ### 🔶 8. What are the benefits of using a message queue?
 
 ---
