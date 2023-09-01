@@ -206,4 +206,31 @@ asyncio.run(main())
 ```
 In this example, we create an event loop using asyncio.get_event_loop() and schedule a task using loop.create_task(my_task()). The event loop is then run using loop.run_forever() which schedules and runs the task as soon as resources become available.
 
+### 🔶 10. What is the purpose of the async with statement in Python? Provide an example?
+
+---
+#### Answer 
+The async with statement is used for managing resources in an asynchronous context, similar to the regular with statement for synchronous code. It's commonly used for working with asynchronous I/O resources that need to be acquired and released safely.
+
+#### Example:
+```python
+import asyncio
+
+class AsyncResource:
+    async def __aenter__(self):
+        print("Acquiring resource asynchronously")
+        await asyncio.sleep(1)
+        return self
+
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        print("Releasing resource asynchronously")
+
+async def main():
+    async with AsyncResource() as resource:
+        print("Using async resource")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
 ### <a href="#top"> Back to top ⬆️</a>
